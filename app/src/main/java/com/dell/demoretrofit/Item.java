@@ -7,9 +7,9 @@ public class Item {
     @SerializedName("title")
     @Expose
     String title;
-    @SerializedName("link")
-    @Expose
-    String link;
+    public String getTitle() {
+        return title;
+    }
 
     @Override
     public String toString() {
